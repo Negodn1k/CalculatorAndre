@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreyRoundedCornerButton">
+        <item name="android:background">@drawable/grey_round_buttons</item>
+    </style>
+    <style name="OrangeRoundedCornerButton">
+        <item name="android:background">@drawable/orange_round_buttons</item>
+    </style>
+    <style name="DarkGreyRoundedCornerButton">
+        <item name="android:background">@drawable/dark_grey_round_buttons</item>
+    </style>
+</resources>
