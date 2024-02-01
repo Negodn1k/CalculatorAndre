@@ -65,6 +65,10 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun funcListen() {
+        upDownNum.setOnClickListener {
+            reserveNum.append("-")
+            resultText.text = reserveNum
+        }
         ac_Btn.setOnClickListener {
             if (!resultText.text.equals("0")) {
                 reserveNum.delete(0, reserveNum.length + 10)
